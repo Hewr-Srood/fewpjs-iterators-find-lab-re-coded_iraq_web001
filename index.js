@@ -74,7 +74,7 @@ const record = [
 ];
 
 function superbowlWin(record) {
-  let game = record.find(ele => ele.year == 1969);
+  let game = record.find(el => el.year == 1969);
   if (game.result == 'W') return game.year;
   return undefined;
 }
